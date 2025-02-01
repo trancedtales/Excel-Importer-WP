@@ -1,0 +1,35 @@
+#excel-data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#excel-data-table th, #excel-data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#excel-data-table th {
+    background-color: #f2f2f2;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination a {
+    padding: 5px 10px;
+    margin: 0 2px;
+    background-color: #f2f2f2;
+    text-decoration: none;
+    color: #000;
+}
+
+.pagination a:hover {
+    background-color: #ddd;
+}
+
+#download-csv {
+    margin-top: 20px;
+}
